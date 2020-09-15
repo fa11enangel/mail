@@ -244,7 +244,7 @@ module Mail
 
     # Returns true if the header has a MIME version defined (empty or not)
     def has_mime_version?
-      !fields.select { |f| f.responsible_for?('Mime-Version') }.empty?
+      !fields.select { |f| f.responsible_for?('MIME-Version') }.empty?
     end
 
     private

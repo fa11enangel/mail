@@ -7,7 +7,7 @@ describe "MIME Emails" do
     describe "general helper methods" do
 
       it "should read a mime version from an email" do
-        mail = Mail.new("Mime-Version: 1.0")
+        mail = Mail.new("MIME-Version: 1.0")
         expect(mail.mime_version).to eq '1.0'
       end
 

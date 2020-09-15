@@ -7,7 +7,7 @@ module Mail
   class MimeVersionField < StructuredField
     
     FIELD_NAME = 'mime-version'
-    CAPITALIZED_FIELD = 'Mime-Version'
+    CAPITALIZED_FIELD = 'MIME-Version'
 
     def initialize(value = nil, charset = 'utf-8')
       self.charset = charset
